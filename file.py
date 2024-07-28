@@ -1,5 +1,9 @@
-a=2
-b=4
-c=8
-sum=2b+a+5c
-print(sum)
+def add_numbers(n):
+    total = 0
+    for _ in range(n):
+        total += int(input())
+    return total
+
+n = int(input())
+if n > 0:
+    print(add_numbers(n))
