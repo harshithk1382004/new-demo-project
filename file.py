@@ -1,8 +1,5 @@
 def add_numbers(n):
-    total = 0
-    for _ in range(n):
-        total += int(input())
-    return total
+    return sum(int(input()) for _ in range(n))
 
 n = int(input())
 if n > 0:
